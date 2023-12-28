@@ -1,8 +1,8 @@
 FROM python:3.12-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src
 
-COPY ./src . 
+COPY . . 
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
